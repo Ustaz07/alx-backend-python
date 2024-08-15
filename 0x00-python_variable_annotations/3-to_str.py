@@ -1,16 +1,7 @@
 #!/usr/bin/env python3
-"""
-Defines a function called 'to_str'
-"""
+""" Basic annotations - to string  """
 
 
-def to_str(f: float) -> str:
-    """
-    Converts a float to string
-    Args:
-        f (float)
-    Return:
-        (str)
-    """
-    return str(f)
-
+def to_str(n: float) -> str:
+    """ Returns the string representation of the float. """
+    return str(n)
