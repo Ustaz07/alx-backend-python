@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """
-Defines a function called 'function_name'
+Defines a function called 'concat'
 """
 
-def function_name(a: type, b: type) -> return_type:
+def concat(a: str, b: str) -> str:
     """
-    Briefly describes the function's purpose.
+    Concatenates two strings.
     
     Args:
-        a (type)
-        b (type)
+        a (str)
+        b (str)
     
     Return:
-        (return_type)
+        (str)
     """
-    # Function logic here
-    return result
+    return a + b
