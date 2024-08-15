@@ -3,14 +3,13 @@
 Defines a function called 'concat'
 """
 
+
 def concat(a: str, b: str) -> str:
     """
-    Concatenates two strings.
-    
+    Concatenates two strings
     Args:
         a (str)
         b (str)
-    
     Return:
         (str)
     """
