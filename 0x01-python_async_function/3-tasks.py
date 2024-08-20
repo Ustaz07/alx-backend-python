@@ -10,12 +10,13 @@ import importlib
 basic_async_syntax = importlib.import_module("0-basic_async_syntax")
 wait_random = basic_async_syntax.wait_random
 
+
 def task_wait_random(max_delay: int) -> asyncio.Task:
     """
-    Creates an asyncio Task that runs the wait_random coroutine with the given max_delay.
+    Creates an asyncio Task that runs d wait_random coroutine with max_delay.
 
     Args:
-        max_delay (int): The maximum delay in seconds for the wait_random coroutine.
+        max_delay (int): The max. delay in sec. for the wait_random coroutine.
 
     Returns:
         asyncio.Task: The asyncio Task running the wait_random coroutine.
