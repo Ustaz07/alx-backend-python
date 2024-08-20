@@ -4,7 +4,11 @@ Module for creating asyncio tasks from the wait_random coroutine.
 """
 
 import asyncio
-from _basic_async_syntax import wait_random  # Change this to: from 0_basic_async_syntax import wait_random if file name is 0-basic_async_syntax.py
+import importlib
+
+# Dynamically import the module
+basic_async_syntax = importlib.import_module("0-basic_async_syntax")
+wait_random = basic_async_syntax.wait_random
 
 def task_wait_random(max_delay: int) -> asyncio.Task:
     """
