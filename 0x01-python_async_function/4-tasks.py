@@ -10,9 +10,10 @@ from importlib import import_module
 # Import task_wait_random from the 3-tasks.py module
 task_wait_random = import_module("3-tasks").task_wait_random
 
+
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """
-    Execute multiple coroutines concurrently and return a list of all the delays.
+    Execute mult. coroutines concurrently and return a list of delays.
 
     Args:
         n (int): The number of coroutines to execute.
