@@ -20,4 +20,4 @@ async def measure_runtime() -> float:
     
     end = time()
     
-    return end - start
+    return end - startt
